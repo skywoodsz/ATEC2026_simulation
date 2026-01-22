@@ -12,7 +12,7 @@ def _resolve_unitree_model_dir() -> str:
     env_dir = os.environ.get("UNITREE_MODEL_DIR")
     if env_dir:
         return env_dir
-    repo_root = Path(__file__).resolve().parents[4]
+    repo_root = Path(__file__).resolve().parents[5]
     return str(repo_root / "unitree_model")
 
 

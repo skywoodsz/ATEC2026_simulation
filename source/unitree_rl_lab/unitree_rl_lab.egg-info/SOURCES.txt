@@ -1,8 +1,6 @@
-__init__.py
 pyproject.toml
 setup.py
-./__init__.py
-./setup.py
+unitree_rl_lab/__init__.py
 unitree_rl_lab.egg-info/PKG-INFO
 unitree_rl_lab.egg-info/SOURCES.txt
 unitree_rl_lab.egg-info/dependency_links.txt

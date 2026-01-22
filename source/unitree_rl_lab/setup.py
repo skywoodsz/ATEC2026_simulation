@@ -28,7 +28,6 @@ INSTALL_REQUIRES = [
 setup(
     name="unitree_rl_lab",
     packages=["unitree_rl_lab"],
-    package_dir={"unitree_rl_lab": "."},
     author=EXTENSION_TOML_DATA["package"]["author"],
     maintainer=EXTENSION_TOML_DATA["package"]["maintainer"],
     url=EXTENSION_TOML_DATA["package"]["repository"],
